@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=Merienda:wght@300..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merienda", cursive;
+}
+.container {
+  width: 100%;
+  min-height: 1300px;
+}
+.header {
+  width: 100%;
+  min-height: 70px;
+}
+.logo h2 {
+  width: 30px;
+  height: 30px;
+  margin-left: 40px;
+  margin-top: 20px;
+  color: rgb(44, 38, 38);
+  float: left;
+  cursor: pointer;
+}
+
+.menu button {
+  width: 40px;
+  height: 40px;
+  float: right;
+  margin-right: 40px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.slider {
+  width: 100%;
+  min-height: 700px;
+  border: 1px solid gray;
+  background-image: url(./img/pexels-fauxels-3184355.jpg);
+  background-repeat: no-repeat;
+  background-size: 130% 110%;
+}
+.slider h1 {
+  color: black;
+  margin-top: 130px;
+  font-size: 45px;
+  margin-left: 55%;
+}
+.slider p {
+  color: white;
+  font-size: 25px;
+  margin-left: 55%;
+}
+.slider button {
+  background-color: rgba(221, 4, 4, 0.83);
+  margin-top: 20px;
+  color: white;
+  font-size: 25px;
+  margin-left: 55%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.wrapper {
+  width: 100%;
+  min-height: 500px;
+  border: 1px solid gray;
+  background-color: rgb(221, 8, 8);
+}
+.heading h1 {
+  color: white;
+  margin-top: 20px;
+  margin-left: 45%;
+}
+.heading p {
+  color: white;
+  width: 60%;
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+}
+.box1 {
+  width: 25%;
+  height: 250px;
+  background-color: white;
+  margin-top: 25px;
+  margin-left: 10%;
+  float: left;
+}
+.box2 {
+  width: 25%;
+  height: 250px;
+  margin-top: 25px;
+  margin-left: 30px;
+  background-color: white;
+  float: left;
+}
+
+.box3 {
+  width: 25%;
+  height: 250px;
+  margin-top: 25px;
+  margin-left: 30px;
+  background-color: white;
+  float: left;
+}
+.box1 b {
+  margin-left: 90px;
+  margin-top: 30px;
+}
+.box1 li {
+  padding-top: 20px;
+  margin-left: 110px;
+}
+.box2 b {
+  margin-left: 90px;
+  margin-top: 30px;
+}
+.box2 li {
+  padding-top: 20px;
+  margin-left: 110px;
+}
+.box3 b {
+  margin-left: 90px;
+  margin-top: 50px;
+}
+.box3 li {
+  padding-top: 20px;
+  margin-left: 110px;
+}
+.article{
+  min-height: 800px;
+  background-image: url(./img/pexels-mikhail-nilov-6894208.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+/* .article h1{
+  padding-top: 20px;
+  margin-left: 150px;
+}
+.article p{
+  margin-top: 20px;
+  margin-left: 150px;
+} */
+.art1{
+  width: 15%;
+  height:150px;
+  margin-left: 150px;
+  margin-top: 100px;
+  background-color: white;
+}
+.art2{
+  width: 15%;
+  height:150px;
+  margin-left: 150px;
+  background-color: white;
+}
+.art3{
+  width: 15%;
+  height:150px;
+  margin-left: 150px;
+  background-color: white;
+}
+
+.article1{
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+}
+.art{
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  
+}
+.art img{
+  width: 50%;
+  height: 70px;
+  margin-left: 20px;
+}
+.art h4{
+  margin-left: 20px;
+}
+.art p{
+  margin-left:20px;
+}
+.contain{
+  max-width: 1230px;
+  min-height: 800px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  gap: 40px;
+}
+.footer{
+  width: 100%;
+  min-height: 300px;
+  background-color: black;
+}
+.search h1{
+  color: white;
+  margin-left: 35%;
+  padding-top: 100px;
+}
+.search p{
+  color: white;
+  margin-left: 35%;
+}
+.search input{
+  margin-top: 20px;
+  margin-left:35%;
+  font-size: larger;
+}
+.search button{
+  background-color: brown;
+  color: white;
+  font-size: larger;
+}

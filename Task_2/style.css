@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=Merienda:wght@300..900&display=swap');
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	font-family: "Merienda", cursive;
+}
+.container{
+	width:100%;
+	min-height: 800px;
+	border: 1px solid red;
+}
+.header{
+	width:100%;
+	min-height: 600px;
+	background-image:  url(./img/img1.jpg);
+	background-size: 100% 100%;
+	background-repeat: no repeat;
+}
+.header .logo{
+	width:25%;
+	min-height: 100px;
+	float:left;
+}
+.logo h1{
+	color:white;
+	margin:25px;
+	margin-left:60px;
+}
+.header .navbar{
+	width:50%;
+	min-height: 100px;
+	padding-top:35px;
+	float:left;
+}
+.navbar a{
+	color:white;
+	margin-left:70px;
+	text-decoration:none;
+}
+.navbar a:hover{
+	color:red;
+}
+.header .contact{
+	width:25%;
+	min-height: 100px;
+	float:left;
+	color:white;
+	padding-top:20px;
+}
+.contact h4{
+	margin-left:175px;
+}
+.contact h2{
+	margin-left:110px;
+	cursor:pointer;
+}
+.slider{
+	width: 48%;
+	height: 500px;
+	float: right;
+	color: white;
+	padding-top: 70px;
+}
+.slider h5{
+	justify-content: center;
+}
+.slider h1{
+	font-size: 60px;
+}
+.security{
+	width: 100%;
+	min-height: 500px;
+	border: 1px solid rgb(0, 16, 96);
+}
+.solution{
+	width: 50%;
+	height: 500px;
+	float: left;
+	padding: 50px;
+}
+.solution h1{
+	font-size: 50px;
+}
+.solution h5{
+	color: red;
+	cursor: pointer;
+}
+.adv{
+	width: 50%;
+	height: 500px;
+	float: right;
+	padding: 55px;
+	background-color: red;
+}
+.adv h3{
+	margin-bottom: 80px;
+	color: white;
+}
+.adv .box1{
+	width: 48%;
+	height: 160px;
+	color: white;
+	float: left;
+}
+.adv .box2{
+	width: 48%;
+	height: 160px;
+	color: white;
+	float: left;
+}
+.adv .box3{
+	width: 48%;
+	height: 160px;
+	color: white;
+	float: left;
+}
+.adv .box4{
+	width:48%;
+	height: 160px;
+	color: white;
+	float: left;
+}
+.box1 p{
+	color: white;
+	font-size: 10px;
+}
+.box2 p{
+	color: white;
+	font-size: 10px;
+}
+.box3 p{
+	color: white;
+	font-size: 10px;
+}
+.box4 p{
+	color: white;
+	font-size: 10px;
+}
+
+.box1 h1{
+	color: white;
+	font-size: 60px;
+}
+.box2 h1{
+	color: white;
+	font-size: 60px;
+}
+.box3 h1{
+	color: white;
+	font-size: 60px;
+}
+.box4 h1{
+	color: white;
+	font-size: 60px;
+}
+.service{
+	width: 100%;
+	min-height: 980px;
+}
+.service .start h1{
+	text-align: center;
+	padding-top: 40px;
+}
+.service .start p{
+	text-align: center;
+	padding-bottom: 30px;
+}
+.service .img1{
+	width: 25%;
+	height:300px;
+	margin-left: 130px;
+	margin-top: 30px;
+	float: left;
+	background-image: url(./img/pexels-pixabay-279810.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 70%;
+}
+.service .img2{
+	width: 25%;
+	height:300px;
+	margin-left: 50px;
+	margin-top: 30px;
+	float: left;
+	background-image: url(./img/pexels-pixabay-60504.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 70%;
+}
+.service .img3{
+	width: 25%;
+	height:300px;
+	margin-left: 50px;
+	margin-top: 30px;
+	float: left;
+	background-image: url(./img/pexels-pixabay-38442.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 70%;'
+}
+.service .img4{
+	width: 25%;
+	height:300px;
+	margin-left: 130px;
+	margin-top: 80px;
+	float: left;
+	background-image: url(./img/pexels-asphotograpy-101808.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 70%;
+}
+.service .img5{
+	width: 25%;
+	height:300px;
+	margin-left: 50px;
+	margin-top: 80px;
+	float: left;
+	background-image: url(./img/pexels-cottonbro-4604662.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 70%;
+}
+.service .img6{
+	width: 25%;
+	height:300px;
+	margin-left: 50px;
+	margin-top: 80px;
+	float: left;
+	background-image: url(./img/pexels-onemorecoffee-179993.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 70%;
+}
+.img1 h3{
+ 	padding-top:220px;
+}
+.img2 h3{
+ 	padding-top:220px;
+}
+
+.img3 h3{
+ 	padding-top:220px;
+}
+
+.img4 h3{
+ 	padding-top:220px;
+}
+
+.img5 h3{
+ 	padding-top:220px;
+}
+
+.img6 h3{
+ 	padding-top:220px;
+}
+.service .sbtn{
+	width:100%;
+	height:300px;
+	text-align: center;
+}
+.sbtn button{
+	margin-left:46%;
+	padding:5px;
+	color:red;
+	border:0.5px solid red;
+	cursor:pointer;
+	margin-bottom:50px;
+}
+
+
+
+
